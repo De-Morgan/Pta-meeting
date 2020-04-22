@@ -33,7 +33,8 @@ class SendCommentBuilder extends StatelessWidget {
                 decoration: InputDecoration(
                   hintText: "Leave a comment",
                 ),
-                onEditingComplete: _submitComment,
+                keyboardType: TextInputType.multiline,
+                textInputAction: TextInputAction.newline,
               ),
             )),
             SizedBox(

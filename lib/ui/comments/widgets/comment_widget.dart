@@ -85,10 +85,11 @@ class _CommentWidgetContent extends StatelessWidget {
           Row(
             children: <Widget>[
               CircleAvatar(
-                radius: 12,
+                radius: 10,
+                backgroundColor: Colors.red,
               ),
               SizedBox(
-                width: 12,
+                width: 8,
               ),
               Text(
                 "${comment.senderName}",
