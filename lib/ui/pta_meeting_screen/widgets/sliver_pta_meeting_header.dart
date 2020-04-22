@@ -8,7 +8,7 @@ class SliverPtaMeetingHeader extends StatelessWidget {
   Widget build(BuildContext context) {
     return SliverAppBar(
       backgroundColor: Colors.white,
-      expandedHeight: 400,
+      expandedHeight: 350,
       elevation: 0,
       pinned: true,
       floating: false,
